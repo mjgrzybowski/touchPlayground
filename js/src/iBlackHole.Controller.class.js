@@ -48,10 +48,10 @@ function Controller(doc) {
             }
 
             if (l == 1) {
-
+				console.log(this.renderer);
 				this.renderer.drawCircle(30,touchesPos[0].x,touchesPos[0].y);
                 
-				console.log(this.renderer);
+				console.log('xx');
 				
                 if (event.type == 'touchstart')
                 {
