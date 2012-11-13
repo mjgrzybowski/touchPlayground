@@ -64,7 +64,10 @@ function Controller(doc) {
 
 
             if (l == 2) {
-
+				for(posId in touchesPos)
+				{
+					ctrl.renderer.drawCircle(30,touchesPos[posId].x,touchesPos[posId].y);
+				}
             }
 
 
