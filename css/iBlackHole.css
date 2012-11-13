@@ -1,0 +1,22 @@
+div.viewport{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+p.cnsl {
+color:white;
+position:absolute;
+bottom:20px;
+left:20px;
+}
