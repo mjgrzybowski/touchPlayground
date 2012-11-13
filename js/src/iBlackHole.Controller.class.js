@@ -43,14 +43,16 @@ function Controller(doc) {
             var l = touchesPos.length;
 
             if (l == 0) {
-//                ctrl.renderer.clearPin();
+
 
             }
 
             if (l == 1) {
 
-				this.drawCircle(30,touchesPos[0].x,touchesPos[0].y);
-
+				this.renderer.drawCircle(30,touchesPos[0].x,touchesPos[0].y);
+                
+				console.log(this.renderer);
+				
                 if (event.type == 'touchstart')
                 {
                   
